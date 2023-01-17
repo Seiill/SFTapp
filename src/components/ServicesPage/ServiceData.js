@@ -39,6 +39,14 @@ export const Services = [
         icon:'../../images/SVG/call.png',
         path: '/trucking'
     },
+    {
+        id:'6',
+        title:'About Us',
+        subtitle: '',
+        description: '',
+        icon:'../../images/SVG/call.png',
+        path: '/about'
+    },
     ]
 
     /* export const ServicesConstruction=[

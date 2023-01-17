@@ -3,9 +3,9 @@ export const homeObjOne ={
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Premium Safe Training',
-    headLine: 'Unlimited the progress with your effort',
-    description: 'We help you ensure employee’s safety through education and an industry-leading , professional intervention. Our team will identify growing opportunities in areas like operational meetings, new hire orientation, and hours of on-the-spot training.',
+    topLine: 'Compliance is the Key',
+    headLine: 'Higher Level of Safety Caring',
+    description: 'SafeStart Training has the tools you need to save time, work more efficiently and keep your workplace compliant with OSHA standards. Contact us today at 813-549-9053. We want your workplace to be as safe as you do.',
     buttonLabel: 'More Info',
     imgStart: false,
     img: require('../../images/0001.jpg'),
@@ -13,15 +13,16 @@ export const homeObjOne ={
     dark: true,
     primary: true,
     darkText: false,
+    path: 'About'
 }
 export const homeObjTwo ={
-    id: 'discover',
+    id: 'training',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Premium Safe Training',
-    headLine: 'Unlimited the progress with your effort',
-    description: 'We help you ensure employee’s safety through education and an industry-leading , professional intervention. Our team will identify growing opportunities in areas like operational meetings, new hire orientation, and hours of on-the-spot training.',
+    topLine: 'Compliance is the Key',
+    headLine: 'Higher Level of Safety Caring',
+    description: 'SafeStart Training has the tools you need to save time, work more efficiently and keep your workplace compliant with OSHA standards. Contact us today at 813-549-9053. We want your workplace to be as safe as you do.',
     buttonLabel: 'More Info',
     imgStart: false,
     img: require('../../images/image004.jpeg'),
@@ -29,6 +30,7 @@ export const homeObjTwo ={
     dark: true,
     primary: true,
     darkText: true,
+    path: '/contactus'
 }
 
 export const homeObjThree ={
@@ -36,9 +38,9 @@ export const homeObjThree ={
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Premium Safe Training',
-    headLine: 'Unlimited the progress with your effort',
-    description: 'We help you ensure employee’s safety through education and an industry-leading , professional intervention. Our team will identify growing opportunities in areas like operational meetings, new hire orientation, and hours of on-the-spot training.',
+    topLine: 'Benefits',
+    headLine: 'healthy work environments',
+    description: 'OSHA compliance can help you reduce your workers’ compensation costs, avoid inspections and eliminate costly fines. It also makes your workplace safer for your employees. Creating a safety culture for your employees elevates their morale because they sense you care about them',
     buttonLabel: 'More Info',
     imgStart: false,
     img: require('../../images/image003.jpg'),
@@ -46,6 +48,7 @@ export const homeObjThree ={
     dark: true,
     primary: true,
     darkText: false,
+    path: '/contactus'
 }
 
 export const homeObjFour ={
@@ -58,10 +61,148 @@ export const homeObjFour ={
     description: 'With your trainig on demant, we can train employes individually  instead of bringing all into a classroom at one time.',
     buttonLabel: "Thank's",
     imgStart: false,
-    img: require('../../images/woman1.jpg'),
+    img: require('../../images/SVG/testimon.svg'),
     alt: 'Esffort',
     dark: true,
     primary: true,
     darkText: true,
+    path: '/Consoluting'
 }
 
+export const homeObjFive ={
+    id: 'testimonials',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Testimonials',
+    headLine: 'Candy Honey ',
+    description: 'With your trainig on demant, we can train employes individually  instead of bringing all into a classroom at one time.',
+    buttonLabel: "Thank's",
+    imgStart: false,
+    img: require('../../images/SVG/testimon.svg'),
+    alt: 'Esffort',
+    dark: true,
+    primary: true,
+    darkText: true,
+    path: '/Consulting'
+}
+export const homeObjSix ={
+    id: 'testimonials',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Testimonials',
+    headLine: 'Candy Honey ',
+    description: 'With your trainig on demant, we can train employes individually  instead of bringing all into a classroom at one time.',
+    buttonLabel: "Thank's",
+    imgStart: false,
+    img: require('../../images/SVG/testimon.svg'),
+    alt: 'Esffort',
+    dark: true,
+    primary: true,
+    darkText: true,
+    path: 'About'
+}
+export const AboutMision ={
+    id: 'Mision',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: 'Our Mision',
+    headLine: 'Behind every great human accomplishment, there is a team.',
+    description: 'Our mission is to help unleash the potential of our client’s team. We endeavor to make a difference by inspiring everyone to align their actions with our client’s core values. We empower individuals to become more effective owners of their safety and health in the workplace.',
+    buttonLabel: "More Info",
+    imgStart: false,
+    img: require('../../images/misionpage.jpg'),
+    alt: 'Mision-Img',
+    dark: true,
+    primary: true,
+    darkText: true,
+    path: '../../pages/contactus'
+}
+export const AboutVision ={
+    id: 'Vision',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: false,
+    topLine: 'Our Vision',
+    headLine: 'Common Grounds of Caring',
+    description: 'Our vision is to serve as a liaison for employers in promoting a cultural mindset of excellence across your organization! We provide you with the tools to help keep your employees safe, maintain a solid safety record, reduce your Workers’ Compensation and other costs, and prevent significant fines due to OSHA violations.',
+    buttonLabel: "More Info",
+    imgStart: false,
+    img: require('../../images/visionpage.jpg'),
+    alt: 'Mision-Img',
+    dark: true,
+    primary: true,
+    darkText: false,
+    path: '/contactus'
+}
+export const WeAre ={
+    id: 'whoweAre',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: 'Who We Are',
+    headLine: 'A reliable ally',
+    description: 'At SafeStart Training, we are comprised of leaders with decades of experience and deep, trusted relationships in the safety industry. Our dedicated team of safety professionals is well versed in both the general and construction industries. We provide workplace safety training and consulting across the United States and its territory. We understand your need as an employer to keep everyone safe and to comply with the federally mandated Occupational Safety and Health Act. It is our mission to help you meet those needs.',
+    buttonLabel: "More Info",
+    imgStart: false,
+    img: require('../../images/wearepage.jpg'),
+    alt: 'Who we are-Img',
+    dark: true,
+    primary: true,
+    darkText: true,
+    path: '/contactus'
+}
+
+export const testimonioOne = {
+    id: 'testimonialone',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: 'Chelsea Mace',
+    headLine: 'Safety Council of Palm Beach County',
+    description: 'Damaris Ovando De Vargas is a knowledgeable instructor with a true passion for keeping employees and businesses safe. She is punctual, patient, thorough and informative. Safety is something she takes seriously and truly enjoys teaching.',
+    buttonLabel: "Get my experience",
+    imgStart: false,
+    img: require('../../images/SVG/testimon.png'),
+    alt: 'Testimonial person-Img',
+    dark: false,
+    primary: false,
+    darkText: true,
+    path: '/contactus'
+}
+export const testimonioTwo = {
+    id: 'testimonialtwo',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: ' Henry Chavez',
+    headLine: ' HGC Framing Owner.',
+    description: '“I immediately knew I had a poor safety culture. I needed to implement a safety program that would truly impact our team. SafeStart Training managed our safety program for the last three years, taking this load off our shoulders. I would highly recommend them',
+    buttonLabel: "Get my experience",
+    imgStart: false,
+    img: require('../../images/SVG/testimon.png'),
+    alt: 'testimonial person-Img',
+    dark: false,
+    primary: false,
+    darkText: true,
+    path: '/contactus'
+}
+export const testimonioThree = {
+    id: 'testimonialthree',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: ' Prisiliano Mendez',
+    headLine: 'Forterra',
+    description: '“SafeStart Training has been great. They are accommodating to our needs and budget, while also doing a great job. Right away, having their safety expertise was a load off our minds. We’ve been a client now since 2009 and our safety culture has been better, our stress is lower, and our employees are safer and happier ever since we started working with SafeStart Training.',
+    buttonLabel: "Get my experience",
+    imgStart: false,
+    img: require('../../images/SVG/testimon.png'),
+    alt: 'testimonial person-Img',
+    dark: false,
+    primary: false,
+    darkText: true,
+    path: '/contactus'
+}

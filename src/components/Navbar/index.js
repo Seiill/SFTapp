@@ -3,9 +3,13 @@ import { IconContext } from 'react-icons/lib';
 import {FaBars} from 'react-icons/fa';
 import IconLogo from '../../images/SVG/logo.svg'
 import { animateScroll as scroll } from 'react-scroll/modules';
-import { Nav, NavbarContainer,Img, NavLogo, MobileIcon, NavMenu, NavLinks, NavIten, NavBtn, NavBtnLink } from './Navbarelements';
+import Dropdown from './Dropdown'
+import { Nav, NavbarContainer,Img, NavLogo, MobileIcon, NavMenu, NavLinks, NavIten, NavBtn, NavBtnLink, List, Links} from './Navbarelements';
+import { navItems } from './navItem';
+/* import { Link } from 'react-router-dom'; */
 const Navbar = ({ toggle }) => {
-    const [scrollNav, setScrollNav] = useState(false)
+    const [dropdown, setDropdown]= useState(false);
+    const [scrollNav, setScrollNav] = useState(false);
 
     const changeNav = ()=> {
         if( window.scrollY >= 80){
@@ -33,16 +37,17 @@ const Navbar = ({ toggle }) => {
                     <FaBars/>
                 </MobileIcon>
                 <NavMenu>
-                    <NavIten>
-                        <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active">About</NavLinks>
-                    </NavIten>
-                    <NavIten>
-                        <NavLinks to="discover" smooth={true} duration={500} spy={true} exact='true' >Training</NavLinks>
-                    </NavIten>
-                    <NavIten>
-                        <NavLinks to="services" smooth={true} duration={500} spy={true} exact='true' /* offset={-80} */>Services</NavLinks>
-                    </NavIten>
-                    
+                    {navItems.map((item)=>{
+                        if(item.title === "Services"){
+                            return(
+                                <List key={item.id} onMouseUp={()=> setDropdown(true)}  onMouseEnter={()=> setDropdown(true)} onMouseLeave={()=>setDropdown(false)}>
+                                    <Links to= {item.path} >{item.title}</Links>
+                                    {dropdown && <Dropdown />}
+                                </List>
+                            )
+                        }
+                        return(<NavIten><NavLinks key={item.id} to={item.path} smooth={true} duration={500} spy={true} exact='true' >{item.title}</NavLinks></NavIten>)
+                    })}                    
                 </NavMenu>
                 <NavBtn>
                 <NavBtnLink to ="/contactus" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Contact Us</NavBtnLink>
@@ -50,8 +55,10 @@ const Navbar = ({ toggle }) => {
                
                 
             </NavbarContainer>
+            
         </Nav>
         <IconContext.Provider/>
+        
     </>
   )
 }

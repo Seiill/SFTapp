@@ -3,7 +3,7 @@ import { Button } from '../ButtonElement'
 
 import { InfoContainer, InfoWrapper, InfoRow, Colum1, Colum2,TextWrapper, TopLine,Heading,Subtitle, BtnWrap, ImgWrap, Img } from './InfoElemnts'
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, darkText, headLine, buttonLabel, description,img, alt, dark, dark2, primary}) => {
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, darkText, headLine, buttonLabel, description,img, alt, dark, dark2, primary,path}) => {
   return (
     <>
     <InfoContainer lightBg= {lightBg} id ={id}>
@@ -15,7 +15,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, darkText, headL
                     <Heading lightText ={lightText}>{headLine}</Heading>
                     <Subtitle darkText ={darkText}>{description}</Subtitle>
                     <BtnWrap>
-                        <Button to='home'
+                        <Button to={path}
                         smooth={true}
                         duration={500}
                         spy={true} exact= 'true'

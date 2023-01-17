@@ -6,7 +6,7 @@ import Icon4 from '../../images/electrc.jpg'
 import Icon5 from '../../images/fallingob.jpg'
 import Icon6 from '../../images/demolition.jpg'
 import FlipCard from '../FlipCard/FlipCard'
-import backgroundImage from '../../images/ctparallax.jpg'
+import backgroundImage from '../../images/ctparallax2.jpg'
 import {Container, ParallaxImg, TitleContainer, Title,TitleList, Icon, Section, Description,DescriptionPrincipal, ContainerSection, ContainerDesc, ListContainer, Listitem, UL,Li,ImageList,ImageContainer,  ContainerServiceConsoulting} from './servicesElements'
 const Constructions = (/* subtitle,description,img,alt */) => {
   return (

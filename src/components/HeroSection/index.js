@@ -21,7 +21,7 @@ const HeroSection =() => {
       <HeroP>At SafeStart Training, we are comprised of leaders with decades of experience and deep, trusted relationships in the safety industry. 
       </HeroP>
       <HeroBtnWrapper>
-        <Button to="Signup" onMouseEnter={onHover}
+        <Button to="About" onMouseEnter={onHover}
         onMouseLeave={onHover}
         primary="true"
         dark="true"

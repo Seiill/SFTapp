@@ -5,8 +5,9 @@ import Icon1 from '../../images/SVG/training.svg'
 import Icon2 from '../../images/trainingworkplace.jpg'
 import Icon3 from '../../images/powertruck.jpg'
 import FlipCard from '../FlipCard/FlipCard'
+import{ContainerTrainings, TrainingType } from './TrainingElements'
 import {Container, ParallaxImg, TitleContainer, Title,TitleList, Icon, Section, Description,DescriptionPrincipal, ContainerSection, ContainerDesc, ListContainer, Listitem, UL,Li,ImageList,ImageContainer,  ContainerServiceConsoulting} from './servicesElements'
-
+import { Button } from '../ButtonElement';
 const Trainings = () =>{
     return(
         <Container>
@@ -55,6 +56,54 @@ const Trainings = () =>{
         <ImageList src={Icon3}/>
         </ImageContainer>
       </ListContainer>    
+      </Section>
+      <Section>
+        <ContainerTrainings>
+          <TrainingType color='#F7B89D'>
+          <Listitem>
+          <TitleList>30-Hour Training</TitleList>
+          <UL>
+            <Li>Updated Material Content</Li>
+            <Li>Learn OSHA's Focus Four Hazards</Li>
+            <Li>Officially Registered OSHA 30 Hour Card (DOL Card)</Li>
+            <Li>Official Certificate of Completion</Li>
+            <Li>Hazard Communication/Globally Harmonized System </Li>
+            <Li>Fire Prevention</Li>
+            <Li>Scaffolds Safety</Li>
+            <Li>Electrical Safety</Li>
+            <Li>Excavation Safety</Li>
+            <Li>Fall Protection</Li>
+            <Li>Cranes Safety</Li>
+            <Li>Health Hazards in Construction</Li>
+            <Li>Welding & Cutting</Li>
+            <Li>And More...</Li>
+          </UL>
+          <Button>More Info</Button>
+        </Listitem>
+        
+          </TrainingType>
+          <TrainingType color='#BBBBBB'>
+          <Listitem>
+          <TitleList>10-Hour Training</TitleList>
+          <UL>
+            <Li>Learn OSHA's Focus Four Hazards</Li>
+            <Li>Introduction to OSHA</Li>
+            <Li>Officially Registered OSHA 10 Hour Card (DOL Card)</Li>
+            <Li>Official Certificate of Completion</Li>
+            <Li>General Awareness about most of the hazards employees encounter</Li>
+            <Li>Introduction to OSHA</Li>
+            <Li>Fall Protection</Li>
+            <Li>Electrical Safety</Li>
+            <Li>Struck-By/Caught-In or Between</Li>
+            <Li>Personal Protective Equipment (PPE)</Li>
+            <Li>Health Hazards</Li>
+            <Li>Material Handling</Li>
+          </UL>
+          <Button>More Info</Button>
+        </Listitem>
+        
+          </TrainingType>
+        </ContainerTrainings>
       </Section>
       
       </Container>

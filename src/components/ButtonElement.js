@@ -1,7 +1,8 @@
 import styled from 'styled-components'
-import {Link} from 'react-scroll'
+import {Link} from 'react-router-dom'
 
 export const Button = styled(Link)`
+text-decoration: none;
 border-radius: 50px;
 background: ${({primary})=> (primary ? '#EC6C3D' : '#696968')};
 white-space: nowrap;
@@ -15,6 +16,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 transition: all 0.2s ease-in-out;
+font-weight: 600;
 
 &:hover{
     transition: all 0.2s ease-in-out;

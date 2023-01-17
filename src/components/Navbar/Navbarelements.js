@@ -1,6 +1,14 @@
 import styled from 'styled-components';
 import{ Link as LinkR  } from 'react-router-dom';
 import{ Link as LinkS} from 'react-scroll';
+export const List = styled.li`
+height:100px;
+margin-top: 30px;
+`
+export const Links = styled(LinkR)`
+text-decoration: none;
+color: white;
+`
 export const Nav = styled.nav`
 background: ${({scrollNav})=> (scrollNav ? '#000' : 'Transparent')};
 height: 80px;

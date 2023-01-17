@@ -8,6 +8,8 @@ import Training from './pages/training';
 import Consulting from './pages/consulting';
 import Manufacturing from './pages/manufacturing';
 import Construction from './pages/construction';
+import Trucking from './pages/trucking'
+import About from './pages/about';
 function App() {
   return (
     <Router>
@@ -19,6 +21,8 @@ function App() {
       <Route path="/consulting" element={<Consulting />} exact/>
       <Route path="/manufacturing" element={<Manufacturing />} exact/>
       <Route path="/construction" element={<Construction />} exact/>
+      <Route path="/trucking" element={<Trucking />} exact/>
+      <Route path="/about" element={<About />} exact/>
       </Routes>
     </Router>
   
