@@ -3,7 +3,7 @@ import Footer from '../components/Footer/index'
 import Consoulting from '../components/ServicesNew/Consoulting'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
-const consulting = () => {
+const Consulting = () => {
   const[isOpen, setIsOpen]= useState(false);
     const toggle = () => {
         setIsOpen(!isOpen);
@@ -18,4 +18,4 @@ const consulting = () => {
   )
 }
 
-export default consulting
+export default Consulting
