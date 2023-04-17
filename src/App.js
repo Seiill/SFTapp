@@ -10,6 +10,7 @@ import Manufacturing from './pages/manufacturing';
 import Construction from './pages/construction';
 import Trucking from './pages/trucking'
 import About from './pages/about';
+import Auditory from './pages/auditory';
 function App() {
   return (
     <Router>
@@ -23,6 +24,7 @@ function App() {
       <Route path="/construction" element={<Construction />} exact/>
       <Route path="/trucking" element={<Trucking />} exact/>
       <Route path="/about" element={<About />} exact/>
+      <Route path="/auditory" element={<Auditory />} exact/>
       </Routes>
     </Router>
   

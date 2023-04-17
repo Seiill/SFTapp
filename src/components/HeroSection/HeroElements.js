@@ -55,10 +55,12 @@ text-align: center;
 
 @media screen and (max-width: 768px) {
     font-size: 40px;
+    margin: 0 1rem;
 }
 
 @media screen and (max-width: 480px) {
     font-size: 32px;
+    margin: 0 1rem;
 }
 `;
 export const HeroP = styled.p`
@@ -70,9 +72,11 @@ max-width: 600px;
 
 @media screen and (max-width: 768px) {
     font-size: 24px;
+    margin: 0 1rem;
 }
 @media screen and (max-width: 480px) {
     font-size: 18px;
+    margin: 0 1rem;
 }
 `
 

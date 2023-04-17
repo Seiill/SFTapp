@@ -1,10 +1,18 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Navbar from '../components/Navbar'
 import ServicesNav from '../components/ServicesNav'
+import Sidebar from '../components/Sidebar';
 const services = () => {
+  const[isOpen, setIsOpen]= useState(false);
+     
+    const toggle = () => {
+        setIsOpen(!isOpen);
+        };
   return (
     <>
-    <Navbar />
+    <Sidebar isOpen={isOpen} toggle={toggle} />
+    <Navbar toggle={toggle} />
+    <ServiceManufacturing/>
     <ServicesNav></ServicesNav>
     </>
   )

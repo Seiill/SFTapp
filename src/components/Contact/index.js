@@ -1,12 +1,10 @@
 import React from'react'
-import Navbar from '../Navbar'
 import Footer from '../Footer/index'
 
 import { Container, FormWrapp, FormContent, Form, FormH1, FormLabel, FormInput, FormButton, Text } from '../Contact/ContactusElements'
 const ContactUs = ()=>{
     return(
         <Container>
-            <Navbar/>
             <FormWrapp>
             <FormContent>
                 <Form action="#">

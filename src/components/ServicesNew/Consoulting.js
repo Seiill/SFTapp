@@ -1,10 +1,10 @@
 import React from 'react';
 import Icon1 from '../../images/SVG/consulting.svg'
-import Icon2 from '../../images/consoultingworker-one.jpg'
+import Icon2 from '../../images/consoultingworker-one.jpeg'
 import Icon3 from '../../images/consoultineconomy.jpg'
-import Icon4 from '../../images/consoulting-penalty.jpeg'
+import Icon4 from '../../images/nocompliance.jpg'
 import Icon5 from '../../images/consoultingfallprotection.jpg'
-import backgroundImage from '../../images/0001.jpg'
+import backgroundImage from '../../images/workplace.jpg'
 import FlipCard from '../FlipCard/FlipCard'
 import {Container, ParallaxImg, TitleContainer, Title,TitleList, Icon, Section, Description,DescriptionPrincipal, ContainerSection, ContainerDesc, ListContainer, Listitem, UL,Li,ImageList,ImageContainer,  ContainerServiceConsoulting} from './servicesElements'
 
@@ -29,7 +29,7 @@ const Consoulting = (/* subtitle,description,img,alt */) => {
           {/* <ImageContainer> */}
           <FlipCard
                 icon={Icon2}
-                title= "Pick Me"
+                title= "more"
                 title2= "Our Safety Training"
                 description="SafeStart Training’s on-site or off-site safety training will arm your team with the tools to perform their job safely, whether they need OSHA 10-Hour or 30-Hour Training or courses on other topics such as Fall Protection, Rigging & Signaling Qualification, Forklift Lift Certification, First Aid/CPR/AED, and many others. "
                 />
@@ -42,7 +42,7 @@ const Consoulting = (/* subtitle,description,img,alt */) => {
         <Description>The practice of safety brings financial benefits to the table. A safe worksite impacts a company’s bottom line both directly and indirectly. <b>Costs associated with accidents including lost wages, Workers’ Comp claims, insurance costs, and legal fees are minimized in a safe work environment.</b></Description>
           <FlipCard
                 icon={Icon3}
-                title= "Pick Me"
+                title= "more"
                 title2= "Safety professionals helps"
                 description="So are the indirect costs that follow incidents, including the lost productivity that occurs when people turn their attention to dealing with the aftermath. On the flip side, a safe work environment increases workers’ morale and productivity, which increases efficiency and profit margins."
                 />
@@ -55,7 +55,7 @@ const Consoulting = (/* subtitle,description,img,alt */) => {
 <b>What does a penalty cost more o Invest in your company's safety program?</b></Description>
 <FlipCard
                 icon={Icon4}
-                title= "Pick Me"
+                title= "more"
                 title2= "Safety consultants"
                 description="SafeStart’s trained safety consultants will conduct comprehensive site safety surveys to identify unsafe acts and conditions and will recommend practical solutions for the mitigation of those risks."
                 />

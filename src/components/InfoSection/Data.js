@@ -39,7 +39,7 @@ export const homeObjThree ={
     lightText: true,
     lightTextDesc: true,
     topLine: 'Benefits',
-    headLine: 'healthy work environments',
+    headLine: 'Healthy work environments',
     description: 'OSHA compliance can help you reduce your workers’ compensation costs, avoid inspections and eliminate costly fines. It also makes your workplace safer for your employees. Creating a safety culture for your employees elevates their morale because they sense you care about them',
     buttonLabel: 'More Info',
     imgStart: false,
@@ -118,7 +118,7 @@ export const AboutMision ={
     dark: true,
     primary: true,
     darkText: true,
-    path: '../../pages/contactus'
+    path: '/contactus'
 }
 export const AboutVision ={
     id: 'Vision',

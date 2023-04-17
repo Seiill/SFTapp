@@ -6,7 +6,6 @@ import InfoSection from '../components/InfoSection';
 import Services from '../components/Services';
 import { homeObjOne, homeObjTwo, homeObjThree} from '../components/InfoSection/Data';
 import Footer from '../components/Footer';
-/* import ServicesNav from '../components/ServicesPage/ServicesNav'; */
 import Slider from '../components/Carrousel/Slider'
 
 
@@ -21,10 +20,9 @@ const Home = () => {
     <>
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <Navbar toggle={toggle} />
-        {/* <ServicesNav /> */}
         <HeroSection />
         <InfoSection {...homeObjOne}/>
-        <InfoSection {...homeObjTwo}/>
+        {/* <InfoSection {...homeObjTwo}/> */}
         <Services/>
         <InfoSection {...homeObjThree}/>
         <Slider />

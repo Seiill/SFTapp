@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 export const Container = styled.div`
-max-width: 100vw;
+width: 100%;
 height: 100vh;
 display: flex;
 position: relative;
+overflow: hidden;
 `
 export const Arrow = styled.div`
 width: 50px;
@@ -26,6 +27,7 @@ z-index: 2;
 export const Wrapper = styled.div`
 height:100%;
 display: flex;
+transition: all 1.5 ease;
 transform: translateX(${props=> props.slideIndex * -100}vw);
 
 `

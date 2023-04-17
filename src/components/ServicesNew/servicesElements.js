@@ -112,18 +112,32 @@ width: 100%;
 
 export const ListContainer = styled.div`
 display:flex;
-height: 80vh;
+height: 100%;
 flex-wrap: wrap;
 align-items: center;
 justify-content: space-evenly;
 padding: .5rem 0 .5rem 0;
 `
 export const Listitem = styled.div`
-    min-width: 300px;
+    min-width: 320px;
     width: 40%;
+    margin: 1rem;
     padding: 1rem 0 1rem 0;
+
+    @media screen and (max-width: 768px) {
+        margin: 0 1rem;
+        padding: 0;
+    }
+    
+    @media screen and (max-width: 480px) {
+        margin: 0 1rem;
+        padding: 0;
+    }
+
+    
 `
 export const UL = styled.ul`
+padding-bottom: 1rem;
 `
 export const Li = styled.li`
 font-size: 18px;
@@ -131,9 +145,13 @@ color: #000;
 `
 export const ImageList = styled.img`
 width: 100%;
+min-width: 370px;
 height: 100%;
 object-fit: cover;
-box-shadow: 1px 1px 3px rgba(12, 0, 9, 1);
+padding-bottom: 1 rem;
+/* box-shadow: 1px 1px 3px rgba(12, 0, 9, 1); */
+
+
 `
 export const ImageContainer = styled.div`
 width: 40%;
@@ -142,5 +160,14 @@ padding: 1rem 0 1rem 0;
 display: flex;
 align-items: center;
 justify-content: center;
+
+`
+export const P = styled.div`
+padding: 1rem 0 1rem 0;
+display: flex;
+flex-direction: column;
+font-size: 1rem;
+margin: 5px;
+
 
 `

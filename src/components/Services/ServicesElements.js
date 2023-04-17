@@ -81,6 +81,13 @@ export const ServicesH2 = styled.h2`
 font-size: 1rem;
 margin-bottom: 10px;
 `;
+export const WrapperText = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+max-width: 190px;
+`;
 export const ServicesP = styled.p`
 font-size: 1rem;
 text-align: center;
