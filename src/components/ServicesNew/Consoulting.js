@@ -3,10 +3,13 @@ import Icon1 from '../../images/SVG/consulting.svg'
 import Icon2 from '../../images/consoultingworker-one.jpeg'
 import Icon3 from '../../images/consoultineconomy.jpg'
 import Icon4 from '../../images/nocompliance.jpg'
-import Icon5 from '../../images/consoultingfallprotection.jpg'
+import Icon5 from '../../images/PPE.jpeg'
+import Icon6 from '../../images/SVG/SVG/loss-analysis.svg'
+import Icon7 from '../../images/SVG/SVG/leading-lagging.svg'
+import Icon8 from '../../images/cybersecurity.jpg'
 import backgroundImage from '../../images/workplace.jpg'
 import FlipCard from '../FlipCard/FlipCard'
-import {Container, ParallaxImg, TitleContainer, Title,TitleList, Icon, Section, Description,DescriptionPrincipal, ContainerSection, ContainerDesc, ListContainer, Listitem, UL,Li,ImageList,ImageContainer,  ContainerServiceConsoulting} from './servicesElements'
+import {Container,ContainerList, ContainerImg,FragImg, ParallaxImg, TitleContainer, Title,TitleList, Icon, Section, Description,DescriptionPrincipal, ContainerSection, ContainerDesc, ListContainer, Listitem, UL,Li,ImageList,ImageContainer,  ContainerServiceConsoulting} from './servicesElements'
 
 const Consoulting = (/* subtitle,description,img,alt */) => {
     return (
@@ -37,6 +40,29 @@ const Consoulting = (/* subtitle,description,img,alt */) => {
         </ContainerDesc>
         </ContainerServiceConsoulting>
         <ContainerServiceConsoulting>
+          <ContainerDesc>
+          <ContainerImg>
+            <FragImg src={Icon6}></FragImg></ContainerImg>
+          
+          <ContainerList>
+          <Li>Body Part</Li>
+          <Li>Nature of Injury</Li>
+          <Li>Cause of Injury</Li>
+          <Li>Years of Service</Li>
+          </ContainerList>
+          <ContainerList>
+          <Li>Reporting Days Lag</Li>
+          <Li>Class Code</Li>
+          <Li>Benefit Type</Li>
+          </ContainerList>
+          <ContainerList>
+          <Li>Day of Week</Li>
+          <Li>Age of Claimant</Li>
+          <Li>Location of Injury</Li>
+          </ContainerList>
+          </ContainerDesc>
+        </ContainerServiceConsoulting>
+        <ContainerServiceConsoulting>
         <Title>Improve Your Bottom Line</Title>
         <ContainerDesc>
         <Description>The practice of safety brings financial benefits to the table. A safe worksite impacts a company’s bottom line both directly and indirectly. <b>Costs associated with accidents including lost wages, Workers’ Comp claims, insurance costs, and legal fees are minimized in a safe work environment.</b></Description>
@@ -47,6 +73,13 @@ const Consoulting = (/* subtitle,description,img,alt */) => {
                 description="So are the indirect costs that follow incidents, including the lost productivity that occurs when people turn their attention to dealing with the aftermath. On the flip side, a safe work environment increases workers’ morale and productivity, which increases efficiency and profit margins."
                 />
         </ContainerDesc>
+        </ContainerServiceConsoulting>
+        <ContainerServiceConsoulting>
+          <ContainerDesc>
+            <Title>Leading VS Lagging Indicators</Title>
+          <ContainerImg>
+            <FragImg src={Icon7}></FragImg></ContainerImg>
+          </ContainerDesc>
         </ContainerServiceConsoulting>
         <ContainerServiceConsoulting>
         <Title>The Cost of Noncompliance</Title>
@@ -63,15 +96,31 @@ const Consoulting = (/* subtitle,description,img,alt */) => {
         </ContainerServiceConsoulting>
         </ContainerSection>
         <ListContainer>
+        <ImageContainer>
+        <ImageList src={Icon8}/>
+        </ImageContainer>
+        <Listitem>
+          <TitleList>POLICY WIRE -LEGAL UPDATES /NEWSLETTER</TitleList>
+          <UL>
+            <Li>How to create a workplace safety</Li>
+            <Li>Heat related safety tips</Li>
+            <Li>Distracted driving awareness: Policies</Li>
+            <Li>Behavior - Based safety explained</Li>
+            <Li>First Aid in the workplace: Are you prepared?</Li>
+            <Li>10 Ways to control your MOD. How to overcome safety complacency in the workplace.</Li>
+          </UL>
+        </Listitem>
+      </ListContainer> 
+        <ListContainer>
         <Listitem>
           <TitleList>Other benefits </TitleList>
           <UL>
-            <Li>Emergency Response Program</Li>
-            <Li>Fall Protection</Li>
-            <Li>Hazard Communication Standard</Li>
-            <Li>Injury and Illness Prevention Plan</Li>
-            <Li>OSHA Recordkeeping (OSHA Reporting)</Li>
-            <Li>Powered Industrial Trucks (Forklift)</Li>
+            <Li><b>Prevent</b> workplace injuries and illnesses</Li>
+            <Li><b>Improve</b> compliance with laws and regulations</Li>
+            <Li><b>Reduce</b> costs, including significant reductions in workers' compensation premiums</Li>
+            <Li><b>Engage</b> workers</Li>
+            <Li><b>Enhance</b> their social responsibility goals</Li>
+            <Li><b>Increase</b> productivity and enhance overall business operations</Li>
           </UL>
         </Listitem>
         <ImageContainer>

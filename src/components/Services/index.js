@@ -12,8 +12,8 @@ const Services = () => {
           <LinkServices to ='/consulting'>
             <ServicesIcon  src={Icon1}></ServicesIcon>
             <WrapperText>
-            <ServicesH2> Consoluting</ServicesH2>
-            <ServicesP> We Help reduce your fess and increase your over all reveneu </ServicesP>
+            <ServicesH2> Consulting</ServicesH2>
+            <ServicesP> We Help reduce your fess and increase your over fees reveneu. </ServicesP>
             </WrapperText>
           </LinkServices>
         </ServicesCard>
@@ -23,7 +23,7 @@ const Services = () => {
           <ServicesIcon src={Icon2}></ServicesIcon>
             <WrapperText>
             <ServicesH2> Training</ServicesH2>
-            <ServicesP> With our training you will have more trained employees and fewer accidents at work </ServicesP>
+            <ServicesP> With our training you will have more trained employees and fewer accidents at work. </ServicesP>
             </WrapperText>
           </LinkServices>
         </ServicesCard>
@@ -33,7 +33,7 @@ const Services = () => {
           <ServicesIcon src={Icon3}></ServicesIcon>
             <WrapperText>
             <ServicesH2> Construction</ServicesH2>
-            <ServicesP> Avoid headaches and contact us. We can help you </ServicesP>
+            <ServicesP> Avoid headaches and contact us. We can help you. </ServicesP>
             </WrapperText>
           </LinkServices>
             

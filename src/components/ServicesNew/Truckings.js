@@ -105,7 +105,7 @@ const Training = () => {
           <Li>Having written safety programs is a great way to prevent workplace incidents and injuries.Having written safety programs is a great way to prevent workplace incidents and injuries.</Li>
           <Li>Having written safety programs is a great way to prevent workplace incidents and injuries.</Li>
           <Li>Having a formal series of safety programs ensures that all employees have undergone the same training and are working with the same knowledge base regarding workplace tools and materials.</Li>
-          <Li>Moreover, Written safety programs ensure uniform compliance throughout the company</Li>
+          <Li>Moreover, Written safety programs ensure uniform compliance throughout the company.</Li>
         </UL>
       </Listitem>
       <ImageContainer>

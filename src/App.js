@@ -14,6 +14,7 @@ import Auditory from './pages/auditory';
 function App() {
   return (
     <Router>
+      
       <Navbar/>
       <Routes>
       <Route path="/" element={<Home/>} exact />

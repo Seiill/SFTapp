@@ -8,7 +8,7 @@ padding: 0 1rem;
 `
 export const Links = styled(LinkR)`
 text-decoration: none;
-color: white;
+color:  #EC6C3D;
 `
 export const Nav = styled.nav`
 background: ${({scrollNav})=> (scrollNav ? '#000' : 'Transparent')};

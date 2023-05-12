@@ -2,8 +2,8 @@
 import React from 'react';
 import backgroundImage from '../../images/trparallax.jpeg'
 import Icon1 from '../../images/SVG/training.svg'
-import Icon2 from '../../images/trainingworkplace.jpg'
-import Icon3 from '../../images/powertruck.jpg'
+import Icon2 from '../../images/tr3s.jpeg'
+import Icon3 from '../../images/trainingback.jpeg'
 import Icon4 from '../../images/backinj.jpeg'
 import Icon5 from '../../images/firstaid.jpeg'
 import Icon6 from '../../images/sfallsp.jpeg'
@@ -28,11 +28,11 @@ const Trainings = () =>{
         <ContainerSection>
         <DescriptionPrincipal>
         <b>DID YOU KNOW?</b><br/>
-        Workplace safety is a shared responsibility <b>between employers and their employees.</b></DescriptionPrincipal>
+        Workplace safety is a shared: <br/> responsibility It’s critical for safety to be at the forefront of any organization, regardless of size or industry. By upholding a safe work environment, organizations <b>can minimize the risk of costly on-site accidents and employee injuries-boosting staff morale and maximizing productivity.</b> Through education, employees will be able to better understand the consequences of unsafe behaviors—increasing their likelihood of committing to safe work practices over time and deterring possible accidents.</DescriptionPrincipal>
         <ContainerServiceConsoulting>
-        <Title>We provide learners</Title>
+        <Title>Comprehensive Employee Safety Orientation</Title>
         <ContainerDesc>
-        <Description>The provide learners with a high-level overview of a number of safety topics and safety rules to comply with OSHA standards. <b>Specifically, our safety orientation training covers an introduction to generic safe work practices various worksite arrangements</b>, the safe use of tools and equipment, and procedures for what to do in the event an emergency occurs</Description>
+        <Description>NOW UPDATED TO COVER GHS! No matter what industry you operate in,all employers have a responsibilty to properly orient workers to the safety issues they will face on the job, before they begin work. The goal of this training program is to provide employees with a thorough, comprehensive safety orientation. Safety is a major part of each employee's job, no matter what type of job they perform. It is vitally important that you get them started right, thinking about safety every day.</Description>
           {/* <ImageContainer> */}
           <FlipCard
                 icon={Icon2}
@@ -45,8 +45,8 @@ const Trainings = () =>{
         </ContainerServiceConsoulting>
         </ContainerSection>
         <Section>
+        <Title>Time Our Course</Title>
         <ContainerTrainings>
-          <Title>Time Our Course</Title>
           <TrainingType color1='#BBBBBB' color2='#e7e7e7' color3>
           <Listitem>
           <TitleList>30-Hour Training</TitleList>
@@ -54,16 +54,16 @@ const Trainings = () =>{
             <Li>Updated Material Content</Li>
             <Li>Learn OSHA's Focus Four Hazards</Li>
             <Li>Officially Registered OSHA 30 Hour Card (DOL Card)</Li>
-            <Li>Official Certificate of Completion</Li>
-            <Li>Hazard Communication/Globally Harmonized System </Li>
-            <Li>Fire Prevention</Li>
-            <Li>Scaffolds Safety</Li>
-            <Li>Electrical Safety</Li>
-            <Li>Excavation Safety</Li>
-            <Li>Fall Protection</Li>
-            <Li>Cranes Safety</Li>
-            <Li>Health Hazards in Construction</Li>
-            <Li>Welding & Cutting</Li>
+            <Li>Official Certificate of Completion.</Li>
+            <Li>Hazard Communication/Globally Harmonized System. </Li>
+            <Li>Fire Prevention.</Li>
+            <Li>Scaffolds Safety.</Li>
+            <Li>Electrical Safety.</Li>
+            <Li>Excavation Safety.</Li>
+            <Li>Fall Protection.</Li>
+            <Li>Cranes Safety.</Li>
+            <Li>Health Hazards in Construction.</Li>
+            <Li>Welding & Cutting.</Li>
             <Li>And More...</Li>
           </UL>
           <Button to='/contactus'
@@ -80,15 +80,15 @@ const Trainings = () =>{
             <Li>Learn OSHA's Focus Four Hazards</Li>
             <Li>Introduction to OSHA</Li>
             <Li>Officially Registered OSHA 10 Hour Card (DOL Card)</Li>
-            <Li>Official Certificate of Completion</Li>
-            <Li>General Awareness about most of the hazards employees encounter</Li>
-            <Li>Introduction to OSHA</Li>
-            <Li>Fall Protection</Li>
-            <Li>Electrical Safety</Li>
-            <Li>Struck-By/Caught-In or Between</Li>
-            <Li>Personal Protective Equipment (PPE)</Li>
-            <Li>Health Hazards</Li>
-            <Li>Material Handling</Li>
+            <Li>Official Certificate of Completion.</Li>
+            <Li>General Awareness about most of the hazards employees encounter.</Li>
+            <Li>Introduction to OSHA.</Li>
+            <Li>Fall Protection.</Li>
+            <Li>Electrical Safety.</Li>
+            <Li>Struck-By/Caught-In or Between.</Li>
+            <Li>Personal Protective Equipment (PPE).</Li>
+            <Li>Health Hazards.</Li>
+            <Li>Material Handling.</Li>
             
           </UL>
           <Button to='/contactus'
@@ -101,8 +101,10 @@ const Trainings = () =>{
           </TrainingType>
         </ContainerTrainings>
       </Section>
+      <Section>
+      <Title >Experts Trainings</Title>
         <CardsTraingns>
-        <Title >Experts Trainings</Title>
+        
           <CardOut>
             <CardContent>
               <Title>Driving safety: The Basics</Title>
@@ -140,7 +142,7 @@ const Trainings = () =>{
             <CardContent>
             <Title>Machine Guarding</Title>
             <ImageCard src={Icon7}></ImageCard>
-            <P>Here discusses common machine hazards, how to control them and how to stay stafe around moving machinery.</P>
+            <P>Class discusses common machine hazards, how to control them and how to stay stafe around moving machinery.</P>
             
             </CardContent>
           </CardOut>
@@ -148,24 +150,24 @@ const Trainings = () =>{
             <CardContent>
             <Title>To the point: PPE</Title>
             <ImageCard src={Icon8}></ImageCard>
-            <P>Our workplace is full of hazards, hazards that can hurt us, or kill us.</P>
+            <P>Workplaces typically present risks to workers safety and health.</P>
             </CardContent>
           </CardOut>
         </CardsTraingns>
-
+        </Section>
         <ListContainer>
         <Listitem>
           <TitleList>Safety Basics: Work related topics:</TitleList>
           <UL>
-            <Li>Health Hazards</Li>
-            <Li>Hazard Communication</Li>
-            <Li>Mobile elevated platforms</Li>
-            <Li>Fire Safety</Li>
-            <Li>Industrial power truck </Li>
-            <Li>Hot Work</Li>
-            <Li>Trenching & Excavations</Li>
-            <Li>Work Zones</Li>
-            <Li>Temperature Extremes</Li>
+            <Li>Health Hazards.</Li>
+            <Li>Hazard Communication.</Li>
+            <Li>Mobile elevated platforms.</Li>
+            <Li>Fire Safety.</Li>
+            <Li>Industrial power truck. </Li>
+            <Li>Hot Work.</Li>
+            <Li>Trenching & Excavations.</Li>
+            <Li>Work Zones.</Li>
+            <Li>Temperature Extremes.</Li>
           </UL>
         </Listitem>
         <ImageContainer>

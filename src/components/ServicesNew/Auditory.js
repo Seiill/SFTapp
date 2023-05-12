@@ -8,7 +8,7 @@ import backgroundImage from '../../images/auditorypll.jpeg'
 import FlipCard from '../FlipCard/FlipCard'
 import {Container, ParallaxImg, TitleContainer, Title,TitleList, Icon, Section, Description,DescriptionPrincipal, ContainerSection, ContainerDesc, ListContainer, Listitem, UL,Li,ImageList,ImageContainer, ContainerServiceConsoulting, P} from './servicesElements'
 
-const Auditory = (/* subtitle,description,img,alt */) => {
+const Auditory = () => {
     return (
       <Container>
       <ParallaxImg img={backgroundImage}>
@@ -103,7 +103,7 @@ const Auditory = (/* subtitle,description,img,alt */) => {
         <Listitem>
           <TitleList>Protect Your People With SafeStart Training</TitleList>
           <UL>
-            <P>To ensure your workplace is safe for business, you need an objective, accurate, actionable third-party safety audit, and that’s what you get with Paragon Safety Group.   <b>Contact us today to begin the process of protecting your assets.</b></P>
+            <P>To ensure your workplace is safe for business, you need an objective, accurate, actionable third-party safety audit, and that’s what you get with Paragon Safety Group. <b>Contact us today to begin the process of protecting your assets.</b></P>
           </UL>
         </Listitem>
         <ImageContainer>

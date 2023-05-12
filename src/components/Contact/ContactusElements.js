@@ -6,7 +6,8 @@ display: none;
 `
  
 export const Container = styled.div`
-min-height: 692px;
+height:100vh;
+/* min-height: 692px; */
   position: fixed;
   bottom:0;
   left:0;

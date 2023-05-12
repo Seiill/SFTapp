@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 export const LI = styled.li`
 display: block;
-width: 100%;
+width: 200px;
 height: 100%;
 text-decoration: none;
 color: white;

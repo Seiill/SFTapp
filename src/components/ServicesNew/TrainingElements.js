@@ -32,8 +32,8 @@ justify-content: center;
 `
 export const CardOut = styled.div`
 position: relative;
-width: 30%;
-min-width: 450px;
+width: 25%;
+min-width: 380px;
 display: flex;
 background-color: #EC6C3D;
 height: 475px;

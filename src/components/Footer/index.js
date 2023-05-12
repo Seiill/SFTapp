@@ -11,7 +11,7 @@ const Footer = () => {
     <FooterContainer>
         <FooterWrap>
             <FooterLinkContainer>
-            <FooterLinksWrapper>
+      {/*       <FooterLinksWrapper>
                 <FooterLinkItems>
                     <FooterLinkTitle>About us</FooterLinkTitle>
                     <FooterLink to="/signin"></FooterLink>
@@ -28,7 +28,7 @@ const Footer = () => {
                     <FooterLink to="/signin">Investors</FooterLink>
                     <FooterLink to="/signin">Terms of Services</FooterLink>              
                 </FooterLinkItems>
-            </FooterLinksWrapper>
+            </FooterLinksWrapper> */}
         </FooterLinkContainer>
         <SocialMedia>
             <SocialMediaWrap>   
@@ -37,13 +37,13 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights> Safe Start Training © {/* {new(Date().getFullYear) */} All rights reserved </WebsiteRights>
             <SocialIcons>
-               <SocialIconLink href='//www.facebook.com/' target='blank' aria-label='Facebook'>
+               <SocialIconLink href='https://www.facebook.com/SafeStartTraining' target='blank' aria-label='Facebook'>
                    <FaFacebook/>
                </SocialIconLink>
-               <SocialIconLink href='//www.instagram.com' target='blank' aria-label='Instagram'>
+               <SocialIconLink href='https://www.instagram.com/safestarttraining/' target='blank' aria-label='Instagram'>
                    <FaInstagram/>
                </SocialIconLink>
-               <SocialIconLink href='https://www.linkedin.com/' target='blank' aria-label='Linkedin'>
+               <SocialIconLink href='https://www.linkedin.com/company/safestart-training-llc/' target='blank' aria-label='Linkedin'>
                    <FaLinkedin/>
                </SocialIconLink>
             </SocialIcons>

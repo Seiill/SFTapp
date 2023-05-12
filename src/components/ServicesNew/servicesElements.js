@@ -171,3 +171,20 @@ margin: 5px;
 
 
 `
+export const ContainerImg = styled.div`
+width:100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+background:linear-gradient(118deg, rgba(187,187,187,1) 0%, rgba(187,187,187,1) 37%, rgba(223,223,223,1) 37%, rgba(231,231,231,1) 100%);
+`
+export const FragImg = styled.img`
+margin: 2rem;
+width:800px;
+min-width: 400px;
+`
+
+export const ContainerList = styled.div`
+display: flex;
+flex-direction: column
+`
