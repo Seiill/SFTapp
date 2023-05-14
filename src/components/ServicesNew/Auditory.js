@@ -1,12 +1,15 @@
 import React from 'react';
 import Icon1 from '../../images/SVG/consulting.svg'
-import Icon2 from '../../images/consoultingworker-one.jpeg'
-import Icon3 from '../../images/consoultineconomy.jpg'
-import Icon4 from '../../images/nocompliance.jpg'
-import Icon5 from '../../images/consoultingfallprotection.jpg'
+import Icon2 from '../../images/au2.jpeg'
+import Icon3 from '../../images/au3.jpeg'
+import Icon4 from '../../images/au4.jpeg'
+import Icon5 from '../../images/au1.jpeg'
+import Icon6 from '../../images/au5.jpeg'
+import Icon7 from '../../images/au6.jpeg'
+import Icon8 from '../../images/au3.jpeg'
 import backgroundImage from '../../images/auditorypll.jpeg'
 import FlipCard from '../FlipCard/FlipCard'
-import {Container, ParallaxImg, TitleContainer, Title,TitleList, Icon, Section, Description,DescriptionPrincipal, ContainerSection, ContainerDesc, ListContainer, Listitem, UL,Li,ImageList,ImageContainer, ContainerServiceConsoulting, P} from './servicesElements'
+import {Container, ParallaxImg, TitleContainer, Title,TitleList, Icon, Section, Description,DescriptionPrincipal, ContainerSection, ContainerDesc, ListContainer, Listitem, UL,ImageList,ImageContainer, ContainerServiceConsoulting, P} from './servicesElements'
 
 const Auditory = () => {
     return (
@@ -37,7 +40,7 @@ const Auditory = () => {
         <ContainerServiceConsoulting>
         <Title>In-Depth Analysis</Title>
         <ContainerDesc>
-        <Description>A safety survey is not an inspection; it is an in-depth analysis of safety programs and behaviors on the jobsite, checking safety knowledge and understanding of your workers and looking for evidence that your company’s safety policies and procedures are being followed.</Description>
+        <Description>A safety survey is not an inspection; it is an in-depth analysis of safety programs and behaviors on the jobsite, <b>checking safety knowledge and understanding of your workers and looking for evidence that your company’s</b> safety policies and procedures are being followed.</Description>
           {/* <ImageContainer> */}
           <FlipCard
                 icon={Icon2}
@@ -78,7 +81,7 @@ const Auditory = () => {
         <ContainerDesc>
         <Description>SafeStart’s Field Safety Consultants can visit a jobsite for the sole purpose of conducting an audit and get the job done in a timely, <b>efficient manner without interrupting production.</b></Description>
           <FlipCard
-                icon={Icon3}
+                icon={Icon6}
                 title= ""
                 title2= ""
                 description=""
@@ -92,7 +95,7 @@ const Auditory = () => {
 
 </Description>
 <FlipCard
-                icon={Icon4}
+                icon={Icon7}
                 title= ""
                 title2= ""
                 description=""
@@ -107,7 +110,7 @@ const Auditory = () => {
           </UL>
         </Listitem>
         <ImageContainer>
-        <ImageList src={Icon5}/>
+        <ImageList src={Icon8}/>
         </ImageContainer>
       </ListContainer>
         </ContainerSection>

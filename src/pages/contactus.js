@@ -3,6 +3,7 @@ import ContactUs from '../components/Contact/index';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import ScrollToTopOnMount from '../components/Scrolltop/scrolltop';
+import Footer from '../components/Footer';
 const Contactus = () => {
   const[isOpen, setIsOpen]= useState(false);
      
@@ -15,6 +16,7 @@ const Contactus = () => {
     <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
       <ContactUs/>
+      <Footer />
     </>
       
     
