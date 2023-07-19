@@ -92,10 +92,11 @@ Additionally, manufacturing workers can suffer from injuries due to high noise l
       <Listitem>
         <TitleList>now you know what you need</TitleList>
         <UL>
-          <Li>Employers have the responsibility to provide a safe workplace.</Li>
-          <Li>Having written safety programs is a great way to prevent workplace incidents and injuries.</Li>
-          <Li>Having a formal series of safety programs ensures that all employees have undergone the same training and are working with the same knowledge base regarding workplace tools and materials.</Li>
-          <Li>Moreover, Written safety programs ensure uniform compliance throughout the company</Li>
+          <Li>Employers must prioritize a safe workplace.</Li>
+          <Li>Written safety programs prevent incidents and injuries effectively. </Li>
+          <Li>Ensuring consistent training and knowledge for all employees regarding tools
+and materials. </Li>
+          <Li>Furthermore, these programs guarantee uniform compliance company-wide.</Li>
         </UL>
       </Listitem>
       <ImageContainer>

@@ -13,7 +13,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, darkText, headL
                 <TextWrapper>
                     <TopLine>{topLine}</TopLine>
                     <Heading lightText ={lightText}>{headLine}</Heading>
-                    <Subtitle darkText ={darkText}>{description}</Subtitle>
+                    <Subtitle darkText ={darkText}dangerouslySetInnerHTML={{ __html: description }}></Subtitle>
                     <BtnWrap>
                         <Button to={path}
                         smooth={true}

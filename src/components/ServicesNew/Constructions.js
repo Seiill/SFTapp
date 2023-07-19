@@ -20,7 +20,7 @@ const Constructions = (/* subtitle,description,img,alt */) => {
     <Section>
       <ContainerSection>
       <DescriptionPrincipal>
-      <b>DID YOU KNOW?</b><br/>According to the NCS, a typical back injury on the job, such as a muscle strain, my cost apwards of $10000 in direct costs, <b>but the indirect cost of this injury can be as much as $100000.</b></DescriptionPrincipal>
+      <b>DID YOU KNOW?</b><br/>According to the NCS, a typical on-the-job back injury can incur direct costs of over <b>$10,000, with indirect costs reaching up to $100,000.</b></DescriptionPrincipal>
       <ContainerServiceConsoulting>
       <Title>Risks of Construction Work</Title>
       <ContainerDesc>

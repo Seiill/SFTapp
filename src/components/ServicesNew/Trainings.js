@@ -28,11 +28,13 @@ const Trainings = () =>{
         <ContainerSection>
         <DescriptionPrincipal>
         <b>DID YOU KNOW?</b><br/>
-        Workplace safety is a shared: <br/> responsibility It’s critical for safety to be at the forefront of any organization, regardless of size or industry. By upholding a safe work environment, organizations <b>can minimize the risk of costly on-site accidents and employee injuries-boosting staff morale and maximizing productivity.</b> Through education, employees will be able to better understand the consequences of unsafe behaviors—increasing their likelihood of committing to safe work practices over time and deterring possible accidents.</DescriptionPrincipal>
+        Workplace safety is a vital shared: <br /> responsibility that builds trust. It's crucial for every
+organization, regardless of size or industry, to make safety a top priority. By maintaining a safe work environment, companies <b>can minimize the risk of expensive accidents and employee injuries</b>. This boosts staff morale and maximizes productivity. Educating employees about the dangers of unsafe behaviors helps them understand the importance of practicing safe work habits. This, in turn, reduces the likelihood of accidents occurring.</DescriptionPrincipal>
         <ContainerServiceConsoulting>
         <Title>Comprehensive Employee Safety Orientation</Title>
         <ContainerDesc>
-        <Description>NOW UPDATED TO COVER GHS! No matter what industry you operate in,all employers have a responsibilty to properly orient workers to the safety issues they will face on the job, before they begin work. The goal of this training program is to provide employees with a thorough, comprehensive safety orientation. Safety is a major part of each employee's job, no matter what type of job they perform. It is vitally important that you get them started right, thinking about safety every day.</Description>
+        <Description>Regardless of your industry, it is the responsibility of all employers to ensure that
+workers receive proper safety orienta4on before starting their job. The objective of this training program is to deliver a thorough and comprehensive safety orientation for employees. <b>Safety plays a crucial role in every employee's job, regardless of their specific role</b>. It is of utmost importance to start them off right, installing a mindset of daily safety consciousness. </Description>
           {/* <ImageContainer> */}
           <FlipCard
                 icon={Icon2}
@@ -70,7 +72,8 @@ const Trainings = () =>{
                         smooth={true}
                         duration={500}
                         spy={true} exact= 'true'
-                        offset={-80}>More Info</Button>
+                        offset={-80}>Contact Us
+          </Button>
         </Listitem>
           </TrainingType>
           <TrainingType color2='#BBBBBB' color1='#e7e7e7' color3>
@@ -95,7 +98,8 @@ const Trainings = () =>{
                         smooth={true}
                         duration={500}
                         spy={true} exact= 'true'
-                        offset={-80}>More Info</Button>
+                        offset={-80}>Contact Us
+          </Button>
         </Listitem>
         
           </TrainingType>
@@ -109,7 +113,7 @@ const Trainings = () =>{
             <CardContent>
               <Title>Driving safety: The Basics</Title>
               <ImageCard src={Icon9}></ImageCard>
-              <P>Your employes do so much driving that it's easy for them to forget how dangerous it can be every year accidents claim almost...</P>
+              <P>Due to the frequent driving your employees undertake, it's easy for them to overlook the inherent dangers. Each year, a significant number of accidents claim lives...</P>
             
             </CardContent>
           </CardOut>
@@ -117,7 +121,7 @@ const Trainings = () =>{
             <CardContent>
             <Title>Preventing Back Injuries:</Title>
             <ImageCard src={Icon4}></ImageCard>
-            <P>Workplaces are full of hazards, hazards that can hurt or kill us. One such hazard is the risks of back injury in the workplace.</P>
+            <P>Workplaces are filled with hazards that pose a potential threat to our well-being and even our lives. One specific hazard that deserves atention is the risk of back injuries in the workplace.</P>
             
             </CardContent>
           </CardOut>
@@ -125,7 +129,7 @@ const Trainings = () =>{
             <CardContent>
             <Title>Emergency First Aid</Title>
             <ImageCard src={Icon5}></ImageCard>
-            <P>First Aid is the inmediate care given to the injured or suddenly ill person. It is temporary assistence that is rendered until...</P>
+            <P>First Aid offers temporary assistance until professional medical help can be obtained or until the person's condition stabilizes.</P>
             
             </CardContent>
           </CardOut>
@@ -133,7 +137,7 @@ const Trainings = () =>{
             <CardContent>
             <Title>Slips, Trips & Falls Prevention</Title>
             <ImageCard src={Icon6}></ImageCard>
-            <P>Slips and falls are one of the leading causes of workplace injuries and over 50% of them occur at ground level.</P>
+            <P>Slips and falls rank among the primary causes of workplace injuries, with more than 50% of these incidents happening at ground level..</P>
             
 
             </CardContent>
@@ -142,7 +146,7 @@ const Trainings = () =>{
             <CardContent>
             <Title>Machine Guarding</Title>
             <ImageCard src={Icon7}></ImageCard>
-            <P>Class discusses common machine hazards, how to control them and how to stay stafe around moving machinery.</P>
+            <P>The training covers common machine hazards, methods to control them, and essential guidelines for maintaining safety in the presence of moving machinery.</P>
             
             </CardContent>
           </CardOut>
@@ -150,7 +154,7 @@ const Trainings = () =>{
             <CardContent>
             <Title>To the point: PPE</Title>
             <ImageCard src={Icon8}></ImageCard>
-            <P>Workplaces typically present risks to workers safety and health.</P>
+            <P>Workplaces inherently harbor potential risks that can impact the safety and overall well-being of workers. It is imperative for organizations to prioritize the trustworthiness of their work environments by actively addressing and mitigating these risks, ensuring the utmost safety and health of their employees.</P>
             </CardContent>
           </CardOut>
         </CardsTraingns>

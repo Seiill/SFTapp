@@ -24,7 +24,11 @@ const Consoulting = (/* subtitle,description,img,alt */) => {
         <ContainerSection>
         <DescriptionPrincipal>
         <b>DID YOU KNOW?</b><br/>
-          The benefits of maintaining a safe work environment in the workplace are many, but first and foremost <b>safety is about what you can do to send your workers home safely to their families at the end of the day.</b></DescriptionPrincipal>
+        Workplaces inherently harbor potential risks that can impact the safety and overall
+well-being of workers. It is imperative for organizations to prioritize the
+trustworthiness of their work environments by actively addressing and mi4ga4ng
+these risks, ensuring the utmost safety and health of their employees.
+          </DescriptionPrincipal>
         <ContainerServiceConsoulting>
         <Title>The Right Thing To Do</Title>
         <ContainerDesc>

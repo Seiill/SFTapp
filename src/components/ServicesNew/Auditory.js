@@ -24,13 +24,24 @@ const Auditory = () => {
         <ContainerSection>
         <DescriptionPrincipal>
         <b>An Audit is More than An Inspection</b><br/>
-        Third-party safety Audits are the single most effective weapon you have at your disposal to protect your most valuable assets: your people, property and financial resources.
+        Third-party safety audits are the best and
+most reliable method to ensure the protection of your most valuable assets: your
+people, property, and financial resources. With guaranteed expertise, these audits
+provide an authoritative and genuine evaluation, delivering improved results and
+lifetime benefits. By prioritizing safety, you demonstrate your commitment to the
+well-being and security of your workforce, backed by an approved and trusted
+authority. <b>Now, you can confidently safeguard your organization, with no risk and
+the best possible outcomes.</b>
 </DescriptionPrincipal>
 <ListContainer>
         <Listitem>
           <TitleList> Trust Us </TitleList>
           <UL>
-            <P>Our expert Field Safety Consultants research, review and analyze your company’s safety protocols and provide you with appropriate measures you can take to help prevent accidents and injury. Our thorough audits can make a substantial difference in the prevention of such accidents, and, with appropriate and timely corrective action, can be viewed favorably by OSHA and other regulatory agencies if a serious incident does occur.</P>
+            <P>Our expert Field Safety Consultants analyze your company's safety protocols,
+ensuring thorough prevention of accidents and injuries. With appropriate measures
+and timely corrective action, our audits make a significant difference in accident
+prevention. <b>These efforts are viewed favorably by OSHA and other regulatory
+agencies, further enhancing trust and compliance.</b></P>
           </UL>
         </Listitem>
         <ImageContainer>
@@ -40,7 +51,10 @@ const Auditory = () => {
         <ContainerServiceConsoulting>
         <Title>In-Depth Analysis</Title>
         <ContainerDesc>
-        <Description>A safety survey is not an inspection; it is an in-depth analysis of safety programs and behaviors on the jobsite, <b>checking safety knowledge and understanding of your workers and looking for evidence that your company’s</b> safety policies and procedures are being followed.</Description>
+        <Description>A safety survey goes beyond an inspection. <b>It involves a comprehensive analysis of
+safety programs and behaviors on the jobsite</b>, assessing workers' safety knowledge
+and understanding. It aims to identify evidence of adherence to your company's
+safety policies and procedures, ensuring their effective implementation.</Description>
           {/* <ImageContainer> */}
           <FlipCard
                 icon={Icon2}
@@ -54,7 +68,9 @@ const Auditory = () => {
         <ContainerServiceConsoulting>
         <Title>Objectivity</Title>
         <ContainerDesc>
-        <Description>Our Field Safety Consultants provide a completely neutral assessment and review of your company’s safety systems and processes <b>without the natural familiarity that occurs with company co-workers and day-to-day routines.</b> </Description>
+        <Description>Our expert Field Safety Consultants deliver an unbiased assessment of your
+company's safety systems and processes. With a neutral perspective, free from
+familiarity and day-to-day routines, <b>they provide a genuine and authoritative review.</b></Description>
           <FlipCard
                 icon={Icon3}
                 title= "»"
@@ -66,7 +82,10 @@ const Auditory = () => {
         <ContainerServiceConsoulting>
         <Title>Knowledge and Validation</Title>
         <ContainerDesc>
-        <Description>SafeStart has unmatched experience conducting safety audits in all types of business environments and we’re able to share best practices and industry-wide <b>knowledge that can strengthen your company’s safety programs.</b>
+        <Description>With unmatched experience in safety audits across various business environments,
+<b>SafeStart is uniquely positioned to share best practices and industry-wide
+knowledge.</b> By leveraging our expertise, we can enhance your company's safety
+programs and strengthen their effectiveness.
 </Description>
 <FlipCard
                 icon={Icon4}
@@ -79,7 +98,9 @@ const Auditory = () => {
         <ContainerServiceConsoulting>
         <Title>Lower Business Impact </Title>
         <ContainerDesc>
-        <Description>SafeStart’s Field Safety Consultants can visit a jobsite for the sole purpose of conducting an audit and get the job done in a timely, <b>efficient manner without interrupting production.</b></Description>
+        <Description>SafeStart's Field Safety Consultants specialize in on-site audits, ensuring a timely and
+efficient process that minimizes disruptions to production. <b>Their sole focus is
+conducting a thorough audit while maintaining the smooth operation of your jobsite.</b></Description>
           <FlipCard
                 icon={Icon6}
                 title= ""
@@ -91,7 +112,9 @@ const Auditory = () => {
         <ContainerServiceConsoulting>
         <Title>Accuracy of Results</Title>
         <ContainerDesc>
-        <Description>Due to the built-in objectivity, the results of a third-party Paragon safety audit provide a <b>more accurate review of safety practices within different sections of the company’s operations.</b>
+        <Description>A third-party Paragon safety audit brings objectivity, providing an accurate review of
+safety practices across different sections of your company's operations. <b>This helps to
+ensure a thorough evaluation of safety standards throughout the organization.</b>
 
 </Description>
 <FlipCard
@@ -106,7 +129,10 @@ const Auditory = () => {
         <Listitem>
           <TitleList>Protect Your People With SafeStart Training</TitleList>
           <UL>
-            <P>To ensure your workplace is safe for business, you need an objective, accurate, actionable third-party safety audit, and that’s what you get with Paragon Safety Group. <b>Contact us today to begin the process of protecting your assets.</b></P>
+            <P>Make your workplace safe for business with Paragon Safety Group. Our objective,
+accurate, and actionable third-party safety audits ensure a secure environment.
+Contact us today to protect your valuable assets.<br/>
+<b>Call us now to safeguard your workplace!</b></P>
           </UL>
         </Listitem>
         <ImageContainer>

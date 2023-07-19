@@ -2,8 +2,8 @@ import styled from "styled-components";
 import {Link} from 'react-router-dom'
 
 export const ServicesContainer = styled.div`
-height: 800px;
 display: flex;
+padding: 35px 0;
 flex-direction: column;
 justify-content: center;
 align-items: center;
