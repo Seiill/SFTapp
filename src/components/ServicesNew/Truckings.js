@@ -1,5 +1,5 @@
 import React from 'react'
-import backgroundImage from '../../images/mfparallax.jpeg'
+import backgroundImage from '../../images/trparallax2.jpg'
 import Icon1 from '../../images/SVG/manufacturing.svg'
 import Icon2 from '../../images/tranOne.jpeg'
 import Icon3 from '../../images/tranTwo.jpeg'

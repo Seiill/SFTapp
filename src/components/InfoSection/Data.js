@@ -25,7 +25,7 @@ export const homeObjTwo ={
     description: 'SafeStart Training has the tools you need to save time, work more efficiently and keep your workplace compliant with OSHA standards. Contact us today at 813-549-9053. We want your workplace to be as safe as you do.',
     buttonLabel: 'More Info',
     imgStart: false,
-    img: require('../../images/image004.jpeg'),
+    img: require('../../images/image004.jpg'),
     alt: 'Esffort',
     dark: true,
     primary: true,
