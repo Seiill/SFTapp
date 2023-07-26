@@ -11,11 +11,12 @@ const fadeInOutAnimation = keyframes`
     opacity: 1;
     top: 0;
     transform: scale(1);
+    margin: 80px 150px;
   }
 `;
 
 const fadeInOutAnimationCSS = css`
-  animation: ${fadeInOutAnimation} 5s ease-in-out 3;
+  animation: ${fadeInOutAnimation} 5s ease-in-out 2;
 `;
 
 export const Container = styled.div`
