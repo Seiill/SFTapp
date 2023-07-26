@@ -73,6 +73,15 @@ font-weight: 400;
 margin: 0rem 2rem 2rem 2rem;
 
 `
+export const DescriptionFirst = styled.p`
+margin:auto;
+min-width: 300px;
+max-width: 70%;
+color: #000;
+font-size: 18px;
+font-weight: 400;
+
+`
 export const Title = styled.h1`
 color: #ec6c3d;
 text-align: center;

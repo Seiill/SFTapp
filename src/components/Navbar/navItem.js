@@ -28,8 +28,8 @@ export const navItemInd = [
     },
     {
         id:'03',
-        title:'Trucking',
-        path: '/trucking'
+        title:'Transportation',
+        path: '/transportation'
     },
 ]
 export const navItems = [

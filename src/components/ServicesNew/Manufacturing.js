@@ -22,7 +22,11 @@ const Manufacturing = (/* subtitle,description,img,alt */) => {
     <Section>
       <ContainerSection>
       <DescriptionPrincipal>
-      <b>DID YOU KNOW?</b><br/>Although there have been many improvements in safety in the manufacturing industry,  there are still many things that you can do within your workplace to ensure that your employees work in safe hands. <b>Risks of Manufacturing Work</b></DescriptionPrincipal>
+      <b>DID YOU KNOW?</b><br/>Although there have been many improvements in safety in the manufacturing industry,  there are still many things that you can do within your workplace to ensure that your employees work in safe hands.{/*  <b>Risks of Manufacturing Work.</b> */}<br/>The
+manufacturing industry affects every facet of life. SafeStart Training understands the
+intricacy of the work, the regulatory requirements you are subject to, and that keeping
+the workforce safe is at the top of the list.<br/><br/>
+Let us earn your trust; we won’t let you down!</DescriptionPrincipal>
       <ContainerServiceConsoulting>
       <Title> Slips/trips/and/falls</Title>
       <ContainerDesc>
