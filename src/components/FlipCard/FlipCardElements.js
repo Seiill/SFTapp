@@ -1,4 +1,22 @@
-import styled from 'styled-components'
+import styled, { keyframes, css }from 'styled-components'
+
+
+const fadeInOutAnimation = keyframes`
+  0%, 100% {
+    opacity: 0;
+    top: 166px;
+    transform: scale(2);
+  }
+  50% {
+    opacity: 1;
+    top: 0;
+    transform: scale(1);
+  }
+`;
+
+const fadeInOutAnimationCSS = css`
+  animation: ${fadeInOutAnimation} 5s ease-in-out 3;
+`;
 
 export const Container = styled.div`
     display: flex;
@@ -8,10 +26,24 @@ export const Container = styled.div`
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
 `
 
+export const ArrowIconContainer = styled.div`
+  position: fixed;
+  display: flex;
+  margin: 20px;
+  top: 166px;
+  z-index: 1;
+  opacity: 0;
+  color: rgb(236, 108, 61);
+  justify-content: center;
+  ${({ isVisible }) => isVisible && fadeInOutAnimationCSS};
+  transition: opacity 0.3s ease;
+`;
 export const FlipCardInner = styled.div`
 position: relative;
+
   width: 100%;
   height: 100%;
   text-align: center;
