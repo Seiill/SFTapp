@@ -16,7 +16,7 @@ const Auditory = () => {
       <Container>
       <ParallaxImg img={backgroundImage}>
         <TitleContainer>
-            <Title>Audits & Inspection</Title>
+            <Title>Audits & Inspections</Title>
             <Icon src={Icon1}></Icon>
         </TitleContainer>
       </ParallaxImg>
@@ -82,8 +82,7 @@ familiarity and day-to-day routines, <b>they provide a genuine and authoritative
         <ContainerServiceConsoulting>
         <Title>Knowledge and Validation</Title>
         <ContainerDesc>
-        <Description>With unmatched experience in safety audits across various business environments,
-<b>SafeStart is uniquely positioned to share best practices and industry-wide
+        <Description>With unmatched experience in safety audits across various business environments, <b>SafeStart is uniquely positioned to share best practices and industry-wide
 knowledge.</b> By leveraging our expertise, we can enhance your company's safety
 programs and strengthen their effectiveness.
 </Description>
@@ -112,7 +111,7 @@ conducting a thorough audit while maintaining the smooth operation of your jobsi
         <ContainerServiceConsoulting>
         <Title>Accuracy of Results</Title>
         <ContainerDesc>
-        <Description>A third-party Paragon safety audit brings objectivity, providing an accurate review of
+        <Description>A third-party safety audit brings objectivity, providing an accurate review of
 safety practices across different sections of your company's operations. <b>This helps to
 ensure a thorough evaluation of safety standards throughout the organization.</b>
 
@@ -129,10 +128,11 @@ ensure a thorough evaluation of safety standards throughout the organization.</b
         <Listitem>
           <TitleList>Protect Your People With SafeStart Training</TitleList>
           <UL>
-            <P>Make your workplace safe for business with Paragon Safety Group. Our objective,
+            <P>Make your workplace safe for business with SafeStart Training. Our objective,
 accurate, and actionable third-party safety audits ensure a secure environment.
 Contact us today to protect your valuable assets.<br/>
-<b>Call us now to safeguard your workplace!</b></P>
+<b>Call us now to safeguard your workplace!</b></P><br/>
+<b>Let us earn your trust; we won't let you down!</b>
           </UL>
         </Listitem>
         <ImageContainer>

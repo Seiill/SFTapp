@@ -147,6 +147,8 @@ export const Listitem = styled.div`
 `
 export const UL = styled.ul`
 padding-bottom: 1rem;
+
+list-style: none;
 `
 export const Li = styled.li`
 font-size: 18px;

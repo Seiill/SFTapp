@@ -2,7 +2,7 @@ import React from 'react';
 import backgroundImage from '../../images/mfparallax.jpeg'
 import Icon1 from '../../images/SVG/manufacturing.svg'
 import Icon2 from '../../images/manufacturingppe.jpg'
-import Icon3 from '../../images/machineg.jpg'
+import Icon3 from '../../images/machine-guarding.jpeg'
 import Icon4 from '../../images/electr.jpg'
 import Icon5 from '../../images/image004.jpg'
 import Icon6 from '../../images/Catch and caught.jpeg'

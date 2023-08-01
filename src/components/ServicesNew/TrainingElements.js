@@ -52,3 +52,14 @@ height: 59%;
 object-fit: cover;
 bottom: 3%;
 `
+export const ULL = styled.ul`
+padding-bottom: 1rem;
+list-style: none;
+`
+export const Pr = styled.div`
+padding: 0;
+display: flex;
+flex-direction: column;
+font-size: 1rem;
+
+`
