@@ -130,9 +130,11 @@ and compliant.</DescriptionFirst>
           <Li>Truck Drivers Safety and Health–Ergonomics.</Li>
           <Li>Chemical handling and storage.</Li>
           <Li>Forklift and scissor lift.</Li>
+          <Li>Lock-out/tag-out or confined space entry procedures</Li>
           <Li>{`Hazard Communication (Safety Data Sheets (SDS)).`}</Li>
           <Li>SOPs, inspection, and audit forms.</Li>
           <Li>Clear method to report an incident.</Li>
+          
         </UL>
       </Listitem>
       <ImageContainer>

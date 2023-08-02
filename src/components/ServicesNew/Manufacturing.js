@@ -117,6 +117,7 @@ and materials. </Li>
           <Li>Emergency Action Plan.</Li>
           <Li>Chemical handling and storage</Li>
           <Li>Forklift and scissor lift</Li>
+          
         </UL>
       </Listitem>
       <ImageContainer>

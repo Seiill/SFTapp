@@ -108,7 +108,7 @@ export const AboutMision ={
     lightBg: true,
     lightText: false,
     lightTextDesc: true,
-    topLine: 'Mision',
+    topLine: 'Mision Client And Secure',
     headLine: 'Behind every great human accomplishment, there is a team.',
     description: 'Our mission is to empower and unleash the potential of our clients teams. By inspiring alignment with core values, we make a difference. We empower individuals to take ownership of their workplace safety and health, becoming more effective andsecure.',
     buttonLabel: "Discover More",
