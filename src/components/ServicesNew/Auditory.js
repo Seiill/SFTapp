@@ -26,11 +26,11 @@ const Auditory = () => {
         <b>An Audit is More than An Inspection</b><br/>
         Third-party safety audits are the best and
 most reliable method to ensure the protection of your most valuable assets: your
-people, property, and financial resources. With guaranteed expertise, these audits
+people, property, and financial resources.<br /> With guaranteed expertise, these audits
 provide an authoritative and genuine evaluation, delivering improved results and
-lifetime benefits. By prioritizing safety, you demonstrate your commitment to the
+lifetime benefits. <br /><br />By prioritizing safety, you demonstrate your commitment to the
 well-being and security of your workforce, backed by an approved and trusted
-authority. <b>Now, you can confidently safeguard your organization, with no risk and
+authority.<br/><br /> <b>Now, you can confidently safeguard your organization, with no risk and
 the best possible outcomes.</b>
 </DescriptionPrincipal>
 <ListContainer>
@@ -38,8 +38,8 @@ the best possible outcomes.</b>
           <TitleList> Trust Us </TitleList>
           <UL>
             <P>Our expert Field Safety Consultants analyze your company's safety protocols,
-ensuring thorough prevention of accidents and injuries. With appropriate measures
-and timely corrective action, our audits make a significant difference in accident
+ensuring thorough prevention of incidents and injuries. With appropriate measures
+and timely corrective action recomendation, our audits make a significant difference in incident
 prevention. <b>These efforts are viewed favorably by OSHA and other regulatory
 agencies, further enhancing trust and compliance.</b></P>
           </UL>
@@ -52,7 +52,7 @@ agencies, further enhancing trust and compliance.</b></P>
         <Title>In-Depth Analysis</Title>
         <ContainerDesc>
         <Description>A safety survey goes beyond an inspection. <b>It involves a comprehensive analysis of
-safety programs and behaviors on the jobsite</b>, assessing workers' safety knowledge
+safety programs and behaviors on the jobsite</b>, by assessing workers' safety knowledge
 and understanding. It aims to identify evidence of adherence to your company's
 safety policies and procedures, ensuring their effective implementation.</Description>
           {/* <ImageContainer> */}
@@ -82,7 +82,7 @@ familiarity and day-to-day routines, <b>they provide a genuine and authoritative
         <ContainerServiceConsoulting>
         <Title>Knowledge and Validation</Title>
         <ContainerDesc>
-        <Description>With unmatched experience in safety audits across various business environments, <b>SafeStart is uniquely positioned to share best practices and industry-wide
+        <Description>With considerable experience in safety audits across various business environments, <b>SafeStart is uniquely positioned to share best practices and industry-wide
 knowledge.</b> By leveraging our expertise, we can enhance your company's safety
 programs and strengthen their effectiveness.
 </Description>
@@ -130,8 +130,8 @@ ensure a thorough evaluation of safety standards throughout the organization.</b
           <UL>
             <P>Make your workplace safe for business with SafeStart Training. Our objective,
 accurate, and actionable third-party safety audits ensure a secure environment.
-Contact us today to protect your valuable assets.<br/>
-<b>Call us now to safeguard your workplace!</b></P><br/>
+Contact us today to protect your valuable assets.<br/><br/>
+<b>Call us now to safeguard your workplace!</b></P>
 <b>Let us earn your trust; we won't let you down!</b>
           </UL>
         </Listitem>

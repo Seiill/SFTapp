@@ -23,7 +23,7 @@ const Services = () => {
           <ServicesIcon src={Icon2}></ServicesIcon>
             <WrapperText>
             <ServicesH2> Training</ServicesH2>
-            <ServicesP> With our training you will have more trained employees and fewer accidents at work. </ServicesP>
+            <ServicesP> With our training, you will have more skilled employees and fewer workplace incidents. </ServicesP>
             </WrapperText>
           </LinkServices>
         </ServicesCard>
@@ -33,7 +33,7 @@ const Services = () => {
           <ServicesIcon src={Icon3}></ServicesIcon>
             <WrapperText>
             <ServicesH2> Construction</ServicesH2>
-            <ServicesP> Avoid headaches and contact us. We can help you. </ServicesP>
+            <ServicesP> Avoid headaches and get in touch with us. We can help you eliminate all the hassles and headaches of construction risks. Contact us for more information. </ServicesP>
             </WrapperText>
           </LinkServices>
             

@@ -58,4 +58,11 @@ export const listAbout = [
         title:'About Us',
         path: '/about'
     },
-]
+];
+
+export const dropdownListMap = {
+  Services: navItemInd,   
+  Industries: navItemInd, 
+  About: listAbout,       
+};
+

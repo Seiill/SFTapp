@@ -10,7 +10,11 @@ import Icon7 from '../../images/workplace.jpg'
 import Icon8 from '../../images/actionplan.jpg'
 import FlipCard from '../FlipCard/FlipCard'
 import {Container, ParallaxImg, TitleContainer, Title,TitleList, Icon, Section, Description,DescriptionPrincipal, ContainerSection, ContainerDesc, ListContainer, Listitem, UL,Li,ImageList,ImageContainer,  ContainerServiceConsoulting} from './servicesElements'
-const Manufacturing = (/* subtitle,description,img,alt */) => {
+const Manufacturing = () => {
+  const liStyle = {
+    listStyleType: 'disc', 
+    margin: '0 0 10px 0',  
+  };
   return (
     <Container>
     <ParallaxImg img={backgroundImage}>
@@ -22,11 +26,11 @@ const Manufacturing = (/* subtitle,description,img,alt */) => {
     <Section>
       <ContainerSection>
       <DescriptionPrincipal>
-      <b>DID YOU KNOW?</b><br/>Although there have been many improvements in safety in the manufacturing industry,  there are still many things that you can do within your workplace to ensure that your employees work in safe hands.{/*  <b>Risks of Manufacturing Work.</b> */}<br/>The
+      <b>DID YOU KNOW?</b><br/>Although there have been many improvements in safety in the manufacturing industry,  there are still many things that you can do within your workplace to ensure that your employees work in safe hands.<br/><br/>The
 manufacturing industry affects every facet of life. SafeStart Training understands the
 intricacy of the work, the regulatory requirements you are subject to, and that keeping
 the workforce safe is at the top of the list.<br/><br/>
-Let us earn your trust; we won’t let you down!</DescriptionPrincipal>
+<b>Let us earn your trust; we won’t let you down!</b></DescriptionPrincipal>
       <ContainerServiceConsoulting>
       <Title> Slips/trips/and/falls</Title>
       <ContainerDesc>
@@ -44,7 +48,7 @@ Let us earn your trust; we won’t let you down!</DescriptionPrincipal>
       <ContainerServiceConsoulting>
       <Title>Insufficient or improper machine guarding</Title>
       <ContainerDesc>
-      <Description>Machine guarding is essential to keep workers safe and at a proper distance from hazardous areas at all times. OSHA frequently cites manufacturing companies for the incorrect installation of machine guarding, and this type of hazard leads to countless struck by/caught in/caught between accidents.</Description>
+      <Description>Machine guarding is essential to keep workers safe and at a proper distance from hazardous areas at all times. OSHA frequently cites manufacturing companies for the incorrect installation of machine guarding, and this type of hazard leads to countless struck by/caught in/caught between incidents.</Description>
         <FlipCard
               icon={Icon3}
               title= ""
@@ -80,7 +84,7 @@ Let us earn your trust; we won’t let you down!</DescriptionPrincipal>
       <ContainerServiceConsoulting>
       <Title>Lockout/Tagout <b>LOTO</b></Title>
       <ContainerDesc>
-      <Description><b>LOTO</b> is a procedure that ensures machines' energy sources are properly shut off and cannot start again until the completion of maintenance or repair. Maintenance workers can suffer severe injury or death when LOTO protocols are ignored.
+      <Description><b>LOTO</b> is a procedure that ensures machines' energy sources are properly shut off and cannot start again until the completion of maintenance or repair.<br/> Maintenance workers can suffer severe injury or death when LOTO protocols are ignored.
 Additionally, manufacturing workers can suffer from injuries due to high noise levels, exposure to chemical solvents during manufacturing and cleaning processes, lifting awkward/heavy objects, and more.
 </Description>
 <FlipCard
@@ -95,12 +99,10 @@ Additionally, manufacturing workers can suffer from injuries due to high noise l
       <ListContainer>
       <Listitem>
         <TitleList>now you know what you need</TitleList>
-        <UL>
-          <Li>Employers must prioritize a safe workplace.</Li>
-          <Li>Written safety programs prevent incidents and injuries effectively. </Li>
-          <Li>Ensuring consistent training and knowledge for all employees regarding tools
-and materials. </Li>
-          <Li>Furthermore, these programs guarantee uniform compliance company-wide.</Li>
+        <UL >
+          <Li style={liStyle}>Employers must prioritize a safe workplace.</Li>
+          <Li style={liStyle}>Have written safety programs to effectevely prevent incidents and injuries. </Li>
+          <Li style={liStyle}>And finally, ensure consistent training and knowledge for all employees.</Li>
         </UL>
       </Listitem>
       <ImageContainer>
@@ -109,14 +111,14 @@ and materials. </Li>
     </ListContainer>
     <ListContainer>
       <Listitem>
-        <TitleList>So we can help you</TitleList>
+        <TitleList>So we can help you with your:</TitleList>
         <UL>
-          <Li>Lock Out/Tagout.</Li>
-          <Li>Fall Protection and Prevention.</Li>
-          <Li>Machine Guarding.</Li>
-          <Li>Emergency Action Plan.</Li>
-          <Li>Chemical handling and storage</Li>
-          <Li>Forklift and scissor lift</Li>
+          <Li>Lock Out/Tagout </Li>
+          <Li>Fall Protection and Prevention</Li>
+          <Li>Machine Guarding</Li>
+          <Li>Emergency Action Plan</Li>
+          <Li>Chemical Handling and Storage</Li>
+          <Li>Forklift and Scissor lift</Li>
           
         </UL>
       </Listitem>

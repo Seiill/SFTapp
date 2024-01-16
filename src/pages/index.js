@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
 import Services from '../components/Services';
-import { homeObjOne, homeObjTwo, homeObjThree} from '../components/InfoSection/Data';
+import { homeObjOne, homeObjThree} from '../components/InfoSection/Data';
 import Footer from '../components/Footer';
 import Slider from '../components/Carrousel/Slider'
 
@@ -22,7 +22,6 @@ const Home = () => {
         <Navbar toggle={toggle} />
         <HeroSection />
         <InfoSection {...homeObjOne}/>
-        {/* <InfoSection {...homeObjTwo}/> */}
         <Services/>
         <InfoSection {...homeObjThree}/>
         <Slider />

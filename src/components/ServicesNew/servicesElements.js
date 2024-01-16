@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../../images/mfparallax.jpeg'
+/* import img from '../../images/mfparallax.jpeg' */
 export const Container = styled.div`
 background: #fff;
 `

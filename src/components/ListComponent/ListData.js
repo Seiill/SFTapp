@@ -51,11 +51,7 @@ export const cards1=[
         title2: '',
         description: 'Employers have the responsibility to provide a safe workplace. They must provide their employees with a workplace that does not have serious hazards and that follows all relevant OSHA safety and health standards.'
     },
-    /* {
-        title: '',
-        title2: '',
-        description: 'what regulations apply to the work environment. Employees must be provided training in a language and vocabulary they can understand. By implementing thorough safety practices within your company, you can keep your employees safe and prevent the costs associated with accidents. Aside from the human cost, accidents cause your company to lose time, they cause you to spend extra money hiring and training replacement workers, and they cause you to spend extra money replacing and repairing damaged materials.'
-    }, */
+   
     {
         title: '',
         title2: '',

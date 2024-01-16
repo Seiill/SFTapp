@@ -29,7 +29,7 @@ const Trainings = () =>{
         <DescriptionPrincipal>
         <b>DID YOU KNOW?</b><br/>
         Workplace safety is a vital shared <br /> responsibility that builds trust. It's crucial for every
-organization, regardless of size, or industry, to make safety a top priority. By maintaining a safe work environment, companies <b>can minimize the risk of expensive accidents and employee injuries</b>. This boosts staff morale and maximizes productivity. Educating employees about the dangers of unsafe behaviors helps them understand the importance of practicing safe work habits. This, in turn, reduces the likelihood of accidents occurring.</DescriptionPrincipal>
+organization, regardless of size, or industry, to make safety a top priority. By maintaining a safe work environment, companies <b>can minimize the risk of expensive incidents and employee injuries</b>. This boosts staff morale and maximizes productivity. Educating employees about the dangers of unsafe behaviors helps them understand the importance of practicing safe work habits. This, in turn, reduces the likelihood of incidents occurring.</DescriptionPrincipal>
         <ContainerServiceConsoulting>
         <Title>Comprehensive Employee Safety Orientation</Title>
         <ContainerDesc>
@@ -163,15 +163,15 @@ workers receive proper safety orientation before starting their job. The objecti
         <Listitem>
           <TitleList>Safety Basics: Work related topics:</TitleList>
           <UL>
-            <Li>Health Hazards.</Li>
-            <Li>Hazard Communication.</Li>
-            <Li>Mobile elevated platforms.</Li>
-            <Li>Fire Safety.</Li>
-            <Li>Industrial power truck. </Li>
-            <Li>Hot Work.</Li>
-            <Li>Trenching & Excavations.</Li>
-            <Li>Work Zones.</Li>
-            <Li>Temperature Extremes.</Li>
+            <Li>Health hazards</Li>
+            <Li>Hazard communication</Li>
+            <Li>Mobile elevated platforms</Li>
+            <Li>Fire safety</Li>
+            <Li>Industrial power truck</Li>
+            <Li>Hot work</Li>
+            <Li>Trenching & excavations</Li>
+            <Li>Work zones</Li>
+            <Li>Temperature extremes</Li>
           </UL>
         </Listitem>
         <ImageContainer>

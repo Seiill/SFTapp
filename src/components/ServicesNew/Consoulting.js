@@ -26,7 +26,7 @@ const Consoulting = (/* subtitle,description,img,alt */) => {
         <b>DID YOU KNOW?</b><br/>
         Workplaces inherently harbor potential risks that can impact the safety and overall
 well-being of workers. It is imperative for organizations to prioritize the
-trustworthiness of their work environments by actively addressing and mi4ga4ng
+safety of their work environments by actively addressing and mitigating
 these risks, ensuring the utmost safety and health of their employees.
           </DescriptionPrincipal>
         <ContainerServiceConsoulting>
@@ -88,8 +88,8 @@ these risks, ensuring the utmost safety and health of their employees.
         <ContainerServiceConsoulting>
         <Title>The Cost of Noncompliance</Title>
         <ContainerDesc>
-        <Description>An OSHA inspection is likely at any time. For that reason, it is important to have a well-implemented security program. Thats why I ask you,
-<b>What does a penalty cost more o Invest in your company's safety program?</b></Description>
+        <Description>An OSHA inspection is likely at any time. For that reason, it is important to have a well-implemented safety program. Thats why I ask you;
+<b> What costs more, a penalty or investing in your company's safety program?</b></Description>
 <FlipCard
                 icon={Icon4}
                 title= ""
@@ -123,7 +123,7 @@ these risks, ensuring the utmost safety and health of their employees.
             <Li><b>Improve</b> compliance with laws and regulations</Li>
             <Li><b>Reduce</b> costs, including significant reductions in workers' compensation premiums</Li>
             <Li><b>Engage</b> workers</Li>
-            <Li><b>Enhance</b> their social responsibility goals</Li>
+            <Li><b>Enhance</b> social responsibility goals</Li>
             <Li><b>Increase</b> productivity and enhance overall business operations</Li>
           </UL>
         </Listitem>

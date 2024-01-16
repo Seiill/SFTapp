@@ -71,7 +71,7 @@ margin-right: -22px;
     display: none;
 }
 `;   
-export const NavIten= styled.li`
+export const NavItem= styled.li`
 height: 80px;
 `;
 export const NavLinks = styled(LinkS)`

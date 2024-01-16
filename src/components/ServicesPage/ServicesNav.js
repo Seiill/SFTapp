@@ -11,7 +11,6 @@ const ServicesNav = () => {
                  return(             
                 <ServicesLink to={service.path} key={id}>
                   {service.title}
-                  {/* <ServiceIcon src={service.icon}></ServiceIcon> */}
                 </ServicesLink>
                 )
               })}
