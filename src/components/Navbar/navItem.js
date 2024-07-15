@@ -61,7 +61,7 @@ export const listAbout = [
 ];
 
 export const dropdownListMap = {
-  Services: navItemInd,   
+  Services: navItem,   
   Industries: navItemInd, 
   About: listAbout,       
 };
